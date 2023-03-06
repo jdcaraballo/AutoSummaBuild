@@ -16,11 +16,11 @@ Feature: Editar  Monto del valor del Beneficio seleccionado
     Then se veran los beneficios en la interfaz
 
   Scenario: Editar valor de Beneficio Auxilios con Valor negativo
-    When el edita beneficios en Filtro cedula 43726616 cambia el monto seleccionado negativo de -125000
+    When el edita beneficios en Filtro cedula 42133549 cambia el monto seleccionado negativo de -125000
     Then se vera mensaje de error en pantalla
 
   Scenario: Editar valor de Beneficio Auxilios con Valor cero
-    When el edita beneficios en Filtro cedula 71712168 cambia el monto seleccionado por 0
+    When el edita beneficios en Filtro cedula 1088000397 cambia el monto seleccionado por 0
     Then se vera mensaje de error
 
 #  Scenario: Consultar Beneficios por MONTO DEL BENEFICIO

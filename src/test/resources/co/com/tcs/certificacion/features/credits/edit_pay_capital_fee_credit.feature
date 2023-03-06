@@ -5,7 +5,7 @@ Feature: Consultar detalle de credito de colaboradores
   para validar en contabilidad
 
 Background: Inicio Sesión como Gestor Senior
-  Given que el Gestor Senior de Creditos inicia sesion con usuario upruebas2@summa-sci.com con clave yVdDMmTvpjo3T5%
+  Given que el Gestor Senior de Creditos inicia sesion con usuario jcaraballo@summa-sci.com con clave S4p+*2022++**
 
   Scenario: Ver detalle de credito del colaborador consultado por COMPAÑÍA
     When el consulta detalles del credito por Compania SUMMA SERV. CORP. INTEGRALES

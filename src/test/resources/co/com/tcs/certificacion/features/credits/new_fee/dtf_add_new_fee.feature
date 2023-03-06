@@ -5,7 +5,7 @@ Feature: Agregar nuevas tarifas para cobros de créditos
   para validar generación de cálculos y cobro de cuotas a los usuarios
 
   Background: Inicio Sesión como Gestor Senior
-    Given que el Gestor de Creditos inicia sesion con usuario upruebas2@summa-sci.com con clave yVdDMmTvpjo3T5%
+    Given que el Gestor de Creditos inicia sesion con usuario jcaraballo@summa-sci.com con clave S4p+*2022++**
 #    Given que el Gestor Senior de Creditos inicia sesion con usuario jd.caraballoo@gmail.com con clave David2820*
 
   Scenario Outline: Agregar interés DTF con fecha del próximo periodo (2023)

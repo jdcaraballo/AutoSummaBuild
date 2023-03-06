@@ -6,5 +6,5 @@ Feature: LOGIN
 
   Scenario: LOGIN
     Given que el abre pagina principal
-    When el inicia sesion con usuario upruebas2@summa-sci.com con clave David-2820*
+    When el inicia sesion con usuario jcaraballo@summa-sci.com con clave S4p+*2022++**
     Then se vera pantalla de inicio del gestor senior

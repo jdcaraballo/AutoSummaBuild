@@ -29,8 +29,7 @@ public class SecondTabs implements Interaction {
             }
         }
     }
-
-    public static SecondTabs a(String tabTitle){
+    public static SecondTabs secondTabs(String tabTitle){
         return Tasks.instrumented(SecondTabs.class,tabTitle);
     }
 }
