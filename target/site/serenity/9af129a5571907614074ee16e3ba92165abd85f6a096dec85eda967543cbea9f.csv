@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Editar  Monto del valor del Beneficio seleccionado","Editar valor de Beneficio por CEDULA","SUCCESS","2023-03-03T16:33:19.9690424-05:00[America/Bogota]","0.0","257.21"
+"Editar  Monto del valor del Beneficio seleccionado","Editar valor de Beneficio NOMBRE","SUCCESS","2023-03-03T16:37:37.5336491-05:00[America/Bogota]","0.0","262.65"
+"Editar  Monto del valor del Beneficio seleccionado","Editar valor de Beneficio Auxilios con Valor negativo","FAILURE","2023-03-03T16:42:00.3911323-05:00[America/Bogota]","0.0","253.2"
+"Editar  Monto del valor del Beneficio seleccionado","Editar valor de Beneficio Auxilios con Valor cero","SUCCESS","2023-03-03T16:46:13.930937-05:00[America/Bogota]","0.0","256.52"

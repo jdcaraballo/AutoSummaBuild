@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Consultar detalle de Beneficios por colaboradores","Consultar Beneficios por CEDULA","SUCCESS","2023-03-03T13:28:58.2024379-05:00[America/Bogota]","0.0","236.4"
+"Consultar detalle de Beneficios por colaboradores","Consultar Beneficios NOMBRE","SUCCESS","2023-03-03T13:32:54.7652957-05:00[America/Bogota]","0.0","248.08"
+"Consultar detalle de Beneficios por colaboradores","Consultar Beneficios por CEDULA Inexistente","SUCCESS","2023-03-03T13:37:03.0543481-05:00[America/Bogota]","0.0","238.63"
+"Consultar detalle de Beneficios por colaboradores","Consultar  por TIPO DE BENEFICIO","SUCCESS","2023-03-03T13:41:01.8461634-05:00[America/Bogota]","0.0","244.67"
+"Consultar detalle de Beneficios por colaboradores","Consultar Beneficios por COMPAÑÍA","SUCCESS","2023-03-03T13:45:06.6813413-05:00[America/Bogota]","0.0","237.75"

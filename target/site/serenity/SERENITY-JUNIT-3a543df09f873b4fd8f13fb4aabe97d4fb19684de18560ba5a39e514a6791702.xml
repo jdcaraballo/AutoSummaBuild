@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Consultar detalle de Beneficios por colaboradores" skipped="0" tests="7" time="1752.22" timestamp="2023-03-03 01:28:58"><testcase name="Consultar Beneficios por CEDULA"/><testcase name="Consultar Beneficios NOMBRE"/><testcase name="Consultar Beneficios por CEDULA Inexistente"/><testcase name="Consultar  por TIPO DE BENEFICIO"/><testcase name="Consultar Beneficios por COMPAÑÍA"/><testcase name="Consultar Beneficios por Filtro Auxilios"><failure message="&#13;&#10;Expected: an element that is clickable&#13;&#10;     but: no matching element found by xpath: //*[@ptooltip='Ver detalle'] was not clicked" type="java.lang.AssertionError">&#13;
+Expected: an element that is clickable&#13;
+     but: no matching element found by xpath: //*[@ptooltip='Ver detalle'] was not clicked</failure><system-err>&#13;
+Expected: an element that is clickable&#13;
+     but: no matching element found by xpath: //*[@ptooltip='Ver detalle'] was not clicked&#13;
+co.com.tcs.certificacion.interactions.Clickable.performAs(Clickable.java:20)&#13;
+co.com.tcs.certificacion.tasks.benefits.serch_detail_benefit.CheckDetailBenefitsByAuxilios.performAs(CheckDetailBenefitsByAuxilios.java:23)&#13;
+co.com.tcs.certificacion.stepdefinitions.benefits.CheckDetailBenefitsSteps.consultaBeneficiosDeAuxilios(CheckDetailBenefitsSteps.java:74)&#13;
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:59)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:49)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:51)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:66)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:227)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:54)&#13;
+</system-err></testcase><testcase name="Consultar Beneficios por Filtro Pólizas"><failure message="Expected condition failed: waiting for By.xpath: //*[@ptooltip='Ver detalle'] to be present (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: '50HW019742', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException">Expected condition failed: waiting for By.xpath: //*[@ptooltip='Ver detalle'] to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '50HW019742', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: driver.version: unknown</failure><system-err>Expected condition failed: waiting for By.xpath: //*[@ptooltip='Ver detalle'] to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '50HW019742', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: driver.version: unknown&#13;
+co.com.tcs.certificacion.tasks.benefits.serch_detail_benefit.ViewBenefitsByBenefitsTypeFilter.performAs(ViewBenefitsByBenefitsTypeFilter.java:22)&#13;
+co.com.tcs.certificacion.stepdefinitions.benefits.CheckDetailBenefitsSteps.consultaBeneficiosDePolizas(CheckDetailBenefitsSteps.java:84)&#13;
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:59)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:49)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:51)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:66)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:227)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:54)&#13;
+</system-err></testcase></testsuite>

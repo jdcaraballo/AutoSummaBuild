@@ -1,0 +1,271 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.20/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.20/datatables.min.js"></script>
+<script type="text/javascript" src="datatables/1.10.20/time-elapsed-dhms.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.20/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.20/datatables.bootstrap4.min.css" rel="stylesheet" />
+
+<script>
+    jQuery.fn.dataTable.ext.type.order['time-elapsed-dhms-pre'] = function(data) {
+
+        var matches = data.match(/^(\d+(?:\.\d+)?)\s*([a-z]+)/i);
+        var multipliers = {
+            ms: 1,
+            s: 1000,
+            m: 60000,
+            h: 3600000,
+            d: 86400000
+        };
+
+        if (matches) {
+            var multiplier = multipliers[matches[2].toLowerCase()];
+            return parseFloat(matches[1]) * multiplier;
+        } else {
+            return -1;
+        };
+    };
+</script>
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">aut-summa-proyectobase-web</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="0478881cbb8f27395aa61cdf2c71b7e098f718c284f4a870a7cde06595f85673.html">Gestionar Perfiles De Los Colaboradores</a></span>
+                > <span class="truncate-60"><a
+                    href="30d18197bd694cae575a3bbcab58ea0bfb31d33f8c3392590988fa4e6ba158b9.html">Crear usuario con perfil Gestor </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-03-2023 12:27</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Gestionar Perfiles De Los Colaboradores</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Yo como Usuario
+quiero gestionar los perfiles de los colaboradores
+para validar permisos y restricciones de cada perfil
+                                </div>
+                            </div>
+
+                            <div class="requirementNarrative">Background: Inicio Sesión como Gestor Senior/Admin
+                                    <p></p>
+                            </div>
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Crear usuario con perfil Gestor
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="211934763eb246249058c590f3783feba20cbfec3eae041a6c7cebc9c2f39457.png" title=" Given que el Gestor Senior/Admin inicia sesion con usuario jcaraballo@summa-sci.com con clave S4p+*2022++**" width="1366"/>
+                <img src="211934763eb246249058c590f3783feba20cbfec3eae041a6c7cebc9c2f39457.png" title=" Gestor home page" width="1366"/>
+                <img src="211934763eb246249058c590f3783feba20cbfec3eae041a6c7cebc9c2f39457.png" title=" Gestor opens the https://app-expcolaborador-frontend-qa.azurewebsites.net" width="1366"/>
+                <img src="211934763eb246249058c590f3783feba20cbfec3eae041a6c7cebc9c2f39457.png" title=" Gestor home page (completed)" width="1366"/>
+                <img src="9834fd6587d03dd41c2965c9276fb5f2c2ed3950183359ff83d253793bf32d04.png" title=" Gestor login dir act" width="1366"/>
+                <img src="9834fd6587d03dd41c2965c9276fb5f2c2ed3950183359ff83d253793bf32d04.png" title=" Gestor clicks on Caja USER" width="1366"/>
+                <img src="c0092aa3a159b28faf81d80e67dce2bbd109f2ad941d238cdbf67819d932d55e.png" title=" Gestor present" width="1366"/>
+                <img src="c37206b1731aea63bd94373665dfb07a76add6829caac78447fb01a850358339.png" title=" Gestor clicks on Caja USER" width="1366"/>
+                <img src="ec091b913a3ab7a97628b42ceebc5768fe578dfb2522bb5fae6794a6775c18cc.png" title=" Gestor enters 'jcaraballo@summa-sci.com' into Caja USER" width="1366"/>
+                <img src="63a8824d36e3acc6bf22550592f833c3c426151d154fbafa193b78c57bca4e23.png" title=" Gestor clicks on BOTTN NEXT" width="1366"/>
+                <img src="d94aa94c527ee40ac618e88fb00ff55b728d2411c036eed21c1e96ce24d06f89.png" title=" Gestor present" width="1366"/>
+                <img src="7b2e71ae5616380dc54f71f719d90c4a0437e11d50e1c94bb71adda1b1180532.png" title=" Gestor clicks on Caja PASS" width="1366"/>
+                <img src="2957c17f030af06a1e53d20f0d3eda1d785340064781bde5492b130beee44be6.png" title=" Gestor enters 'S4p+*2022++**' into Caja PASS" width="1366"/>
+                <img src="dcb4ade70be63bb68dbfed79926b7f02f844f9252ca11fb80a8e13df4572f749.png" title=" Gestor clicks on BOTTON SIGN IN" width="1366"/>
+                <img src="11a6b76b6e2717582bf1359db96f7be16e3986fa09601423ebb3507438751bd8.png" title=" Gestor wait" width="1366"/>
+                <img src="11a6b76b6e2717582bf1359db96f7be16e3986fa09601423ebb3507438751bd8.png" title=" Gestor present" width="1366"/>
+                <img src="d793f36a1780f1872544fbd9bb1f951b007c8a632fd021db0247f4194809b357.png" title=" Gestor clicks on BOTTON SIGN IN" width="1366"/>
+                <img src="0c8d836bdd1235ab7245d04a180fb29b04ee2448d8d4be5f351442464feadba6.png" title=" Gestor wait" width="1366"/>
+                <img src="e493cff7e07f5e064cd7af87b841c001e43e24b0117ccd8bc72f7ad552b4528e.png" title=" Gestor clicks on BOTON PARA MANTENER INICIADA LA SESION" width="1366"/>
+                <img src="fbb6356931cf9ad79f805506ff5f9cad1f8625658d09e413d3649544129bbcbc.png" title=" Gestor wait" width="1366"/>
+                <img src="fbb6356931cf9ad79f805506ff5f9cad1f8625658d09e413d3649544129bbcbc.png" title=" Gestor login dir act (completed)" width="1366"/>
+                <img src="fbb6356931cf9ad79f805506ff5f9cad1f8625658d09e413d3649544129bbcbc.png" title=" Given que el Gestor Senior/Admin inicia sesion con usuario jcaraballo@summa-sci.com con clave S4p+*2022++** (completed)" width="1366"/>
+                <img src="fbb6356931cf9ad79f805506ff5f9cad1f8625658d09e413d3649544129bbcbc.png" title=" When el gestor/admin crea un nuevo usuario test.gestor_11@gmail.com.com con rol de Gestor" width="1366"/>
+                <img src="fbb6356931cf9ad79f805506ff5f9cad1f8625658d09e413d3649544129bbcbc.png" title=" Gestor create gestor user role" width="1366"/>
+                <img src="fbb6356931cf9ad79f805506ff5f9cad1f8625658d09e413d3649544129bbcbc.png" title=" Gestor clickable" width="1366"/>
+                <img src="883d822ebfe439b50dd805313734926cdf3114270825ceab6c11590e620ca969.png" title=" Gestor clicks on Ingreso al Men&uacute; de seguridad" width="1366"/>
+                <img src="b31eff8feaef65abb32e4826d583c873c7aba12930de7a0afc6cf9aa653b85ac.png" title=" Gestor clickable" width="1366"/>
+                <img src="f54dee49d4e3847d0d2817cd381fdf23fa6fcd15fd90409effb33f50ebc19d2d.png" title=" Gestor clicks on Bot&oacute;n men&uacute; Usuarios " width="1366"/>
+                <img src="f54dee49d4e3847d0d2817cd381fdf23fa6fcd15fd90409effb33f50ebc19d2d.png" title=" Gestor clickable" width="1366"/>
+                <img src="5b97c1e6d3aa8f7ac1912cb77515ea4f0b623ca0d70abac1424db1708664eda5.png" title=" Gestor clicks on Agregar usuario" width="1366"/>
+                <img src="b442d98036d2ffd585f6dbe1ba2e2748a15926d91fef587809f4b002a6f6cca0.png" title=" Gestor clickable" width="1366"/>
+                <img src="ceebb8b0f7638bae0df6031d2291322d93f5b0310f0cb7f5c9b25050f24d2250.png" title=" Gestor clicks on Caja texto para editar nuevo USUARIO" width="1366"/>
+                <img src="0c8fcceae50972d932dc91b8572379bbd93c31ca34dacebd3180c172a13609cc.png" title=" Gestor enters 'test.gestor_11@gmail.com.com' into Caja texto para editar nuevo USUARIO" width="1366"/>
+                <img src="0c8fcceae50972d932dc91b8572379bbd93c31ca34dacebd3180c172a13609cc.png" title=" Gestor clickable" width="1366"/>
+                <img src="4e94097ea77d77df4baea30f141416de262c7db5cde416f3dd691e22c93b22d0.png" title=" Gestor clicks on Filtro para consultar Roles" width="1366"/>
+                <img src="e004952bf88a0dbae2d6e05ca90dd2ffb8fde650c4b1df5075093d98cce7a0c3.png" title=" Gestor enters 'Gestor' into Filtro para consultar Roles" width="1366"/>
+                <img src="e004952bf88a0dbae2d6e05ca90dd2ffb8fde650c4b1df5075093d98cce7a0c3.png" title=" Gestor clickable" width="1366"/>
+                <img src="21142dd72161a2e1e789de6de8ad5fe67de956c1c0af50a7aa3e59f71c014546.png" title=" Gestor clicks on CheckBox Admin Rol" width="1366"/>
+                <img src="12d62815f2774bc2fc227a2705b9373bb0c1ef5a6495f9e307b6207c4b6f3077.png" title=" Gestor clicks on Boton guardar usuario" width="1366"/>
+                <img src="36d2f72c2c0de81aed26656ebd88b7601421e40d62a9ddec80d39eb02bda7181.png" title=" Gestor wait" width="1366"/>
+                <img src="36d2f72c2c0de81aed26656ebd88b7601421e40d62a9ddec80d39eb02bda7181.png" title=" Gestor create gestor user role (completed)" width="1366"/>
+                <img src="36d2f72c2c0de81aed26656ebd88b7601421e40d62a9ddec80d39eb02bda7181.png" title=" When el gestor/admin crea un nuevo usuario test.gestor_11@gmail.com.com con rol de Gestor (completed)" width="1366"/>
+                <img src="1fc011f1e8fce9908cf8a6e2aab096fa491fd5683a30c630d2cced2ea9887523.png" title=" Then se vera nuevo usuario en la pantalla" width="1366"/>
+                <img src="1fc011f1e8fce9908cf8a6e2aab096fa491fd5683a30c630d2cced2ea9887523.png" title=" Then val creation user ok" width="1366"/>
+                <img src="1fc011f1e8fce9908cf8a6e2aab096fa491fd5683a30c630d2cced2ea9887523.png" title=" Then se vera nuevo usuario en la pantalla (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.3.13</span>
+</div>
+</body>
+</html>

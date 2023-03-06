@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Consultar detalle de Beneficios por colaboradores","Consultar Beneficios por Filtro Auxilios","FAILURE","2023-03-03T13:49:04.5949484-05:00[America/Bogota]","0.0","275.56"
+"Consultar detalle de Beneficios por colaboradores","Consultar Beneficios por Filtro Pólizas","FAILURE","2023-03-03T13:53:40.3629739-05:00[America/Bogota]","0.0","271.15"
+"Editar  Monto del valor del Beneficio seleccionado","Editar valor de Beneficio Auxilios con Valor negativo","FAILURE","2023-03-03T16:42:00.3911323-05:00[America/Bogota]","0.0","253.2"

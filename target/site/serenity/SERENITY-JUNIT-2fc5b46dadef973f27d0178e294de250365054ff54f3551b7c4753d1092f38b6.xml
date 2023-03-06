@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Editar  Monto del valor del Beneficio seleccionado" skipped="0" tests="4" time="1029.58" timestamp="2023-03-03 04:33:19"><testcase name="Editar valor de Beneficio por CEDULA"/><testcase name="Editar valor de Beneficio NOMBRE"/><testcase name="Editar valor de Beneficio Auxilios con Valor negativo"><failure message="Expected val edit failed negative value benefit&#13;&#10;Expected: is &lt;true&gt;&#13;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">Expected val edit failed negative value benefit&#13;
+Expected: is &lt;true&gt;&#13;
+     but: was &lt;false&gt;</failure><system-err>Expected val edit failed negative value benefit&#13;
+Expected: is &lt;true&gt;&#13;
+     but: was &lt;false&gt;&#13;
+co.com.tcs.certificacion.stepdefinitions.benefits.EditValueBenefitsSteps.seVeranMensajeDeError(EditValueBenefitsSteps.java:53)&#13;
+✽.se vera mensaje de error en pantalla(file:///C:/Users/2462952/Documents/ReposVarios/ec-beneficios-auto-test/src/test/resources/co/com/tcs/certificacion/features/benefits/edit_benefit.feature:20)&#13;
+</system-err></testcase><testcase name="Editar valor de Beneficio Auxilios con Valor cero"/></testsuite>

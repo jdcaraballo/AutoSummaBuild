@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Gestionar Roles para acceso de los colaboradores","Creación Rol Admin","SUCCESS","2023-03-03T12:46:29.4737274-05:00[America/Bogota]","0.0","234.05"
+"Gestionar Roles para acceso de los colaboradores","Creación Rol Gestor","SUCCESS","2023-03-03T12:50:23.6992645-05:00[America/Bogota]","0.0","261.42"
+"Gestionar Roles para acceso de los colaboradores","Creación Rol Auxiliar","SUCCESS","2023-03-03T12:54:45.2626743-05:00[America/Bogota]","0.0","266.99"
+"Gestionar Roles para acceso de los colaboradores","Creación Rol Basic","SUCCESS","2023-03-03T12:59:12.3955087-05:00[America/Bogota]","0.0","235.28"
+"Gestionar Roles para acceso de los colaboradores","Creación Rol Otro","SUCCESS","2023-03-03T13:03:07.8458561-05:00[America/Bogota]","0.0","230.51"
+"Gestionar Roles para acceso de los colaboradores","Creación Rol Otro sin nombre (vacío/null)","SUCCESS","2023-03-03T13:06:58.5112722-05:00[America/Bogota]","0.0","258.76"
